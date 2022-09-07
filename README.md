@@ -6,7 +6,7 @@
 
 # DETAILS
 
-* NtQuerySystemInformation API Retrieves the specified system information , it has too many flag each flag represent a structure to be retrieved but we are interersted in ```SystemProcessInformation``` this flag Returns an array of SYSTEM_PROCESS_INFORMATION structures, one for each process running in the system These structures contain information about the resource usage of each process, including the number of threads and handles used by the process, the peak page-file usage, and the number of memory pages that the process has allocated.
+* ``NtQuerySystemInformation`` API Retrieves the specified system information , it has too many flag each flag represent a structure to be retrieved but we are interersted in ```SystemProcessInformation``` this flag Returns an array of SYSTEM_PROCESS_INFORMATION structures, one for each process running in the system These structures contain information about the resource usage of each process, including the number of threads and handles used by the process, the peak page-file usage, and the number of memory pages that the process has allocated.
 
   ![image](https://user-images.githubusercontent.com/60795188/188508937-73d913e6-5841-4079-a8c5-6b864361653a.png)
 
