@@ -16,6 +16,8 @@
 
 * then we check if the specified flag is ```SystemProcessInformation``` then go through every item by summing the previous item value and the ``NextEntryOffset`` member , when we found our chosen process we sum the current ``NextEntryOffset`` with the next one so whenever the listing tool reach the previous item its will jump over the next one (our process ) meaning the process will be invisibe . 
 
+  ![image](https://user-images.githubusercontent.com/60795188/197649962-1558e1a4-66df-4733-a178-c57e3fccf5d6.png)
+
   ![image](https://user-images.githubusercontent.com/60795188/188508192-7bc6f35a-ed09-4c6e-b570-f4c06f47dd38.png)
   
 # VID
